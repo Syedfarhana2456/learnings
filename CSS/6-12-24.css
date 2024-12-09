@@ -1,0 +1,16 @@
+h1{
+    color:blue;
+}
+p{
+    color:pink;
+}
+p1{
+    color:rgb(255, 0,0);
+}
+button{
+    color:yellow;
+    background-color:#ff0000;
+}
+body{
+    background-color:aqua;
+}
