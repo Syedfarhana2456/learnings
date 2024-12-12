@@ -1,0 +1,23 @@
+*{
+    font-family:"Times New Roman";
+}
+
+p{
+    font-size:25px;
+}
+p1{
+    line-height:5px;
+}
+p2{
+    text-transform:uppercase;
+}
+h1{
+    text-align:center;
+    text-transform:uppercase;
+}
+#outer{
+    font-size:25px;
+}
+#inner{
+    font-size:10px;
+}
