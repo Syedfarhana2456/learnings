@@ -1,0 +1,44 @@
+div{
+    height:100px;
+    background-color:pink;
+    width:200px;
+    /*
+    border-width:2px;
+    border-style:dotted;
+    border-color:blue;
+    */
+    border:2px dotted blue;
+    /*padding-left:25px;*/
+    padding:20px 20px 20px 20px;
+    border-radius:15px;
+}
+h1{
+    height:50px;
+    background-color:aqua;
+    width:200px;
+    border-width:2px;
+    border-style:double;
+    border-color:black;
+    text-align:center;
+    border-radius:15px;
+
+}
+p{
+    height:100px;
+    background-color: bisque;
+    width:1200px;
+    text-align:center;
+    border-width:2px;
+    border-style:dashed;
+    border-color: chocolate;
+    border-radius:15px;
+    margin: 20px 20px 20px 20px;
+}
+h2{
+    height:150px;
+    width:150px;
+    background-color: pink;
+    border: 2px dotted black;
+    border-radius:50%;
+    text-align: center;;
+}
