@@ -1,0 +1,18 @@
+div{
+    width:100px;
+    height:100px;
+    margin:25px;
+    padding:25px;
+    display:inline-block;
+}
+#blue{
+    background-color:rgba(0, 0, 255, 1);
+}
+#red{
+    background-color:red;
+    /*display:none;*/
+    visibility:hidden;
+}
+#green{
+    background-color:rgba(0, 255, 0, 0.5);
+}
