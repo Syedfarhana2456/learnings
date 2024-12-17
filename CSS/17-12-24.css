@@ -1,0 +1,19 @@
+div{
+    height: 250px;
+    width: 250px;
+    background-color:skyblue;
+    border:2px solid black;
+    display:inline-block;
+}
+#box1{
+    background-image: url("TajMahal.jpg");
+    background-size: cover;
+}
+#box2{
+    background-image: url("RedFort.jpg");
+    background-size: contain;
+}
+#box3{
+    background-image: url("charminar.jpg");
+    background-size:auto;
+}
