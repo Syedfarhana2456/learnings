@@ -1,0 +1,10 @@
+div{
+    height:100px;
+    width:200px;
+    background-image:url("RedFort.jpg");
+    background-size:cover;
+    color: white;
+    position: fixed;
+    right:0px;
+    top:50px;
+}
