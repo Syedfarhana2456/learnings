@@ -1,0 +1,54 @@
+body{
+    text-align:center;
+}
+div{
+    height:100px;
+    width:50px;
+    display: inline-block;
+    border:2px solid black;
+}
+#container{
+    width:700px;
+    height:300px;
+    display: flex;
+    flex-direction: row;
+   /* flex-direction:row-reverse;
+    flex-direction:column;
+    flex-direction:column-reverse;
+    */
+    justify-content:center;
+    /* justify-content: flex-end;
+     justify-content:center;
+     justify-content:space-evenly;
+     justify-content:space-around;
+     justify-content:space-between;
+     */
+     /*flex-wrap: wrap;
+     /*flex-wrap: wrap-reverse;*/
+     align-items:flex-start;
+     /*align-content: center;
+     /* align-content:flex-start;
+        align-content:flex-end;
+        */
+}
+#box1{
+    background-color:aquamarine;
+    flex-grow: 1;
+}
+#box2{
+    background-color: blue;
+    height:200px;
+    /*flex-shrink: 2;*/
+    flex-grow: 2;
+}
+#box3{
+    background-color: burlywood;
+    height:50px;
+}
+#box4{
+    background-color: orangered;
+}
+#box5{
+    background-color: teal;
+   /* align-self:flex-end;It is given higher priority*/
+}
