@@ -1,0 +1,134 @@
+
+body{
+    background-image:url("project1.jpg");
+    background-size: cover;
+    color:white;
+}
+section{
+    height:1280px;
+}
+h1{
+    text-align: center;
+    font-size:35px;
+}
+P{
+    text-align: center;
+}
+div{
+    height:200px;
+    width:200px;
+    border:2px solid blue;
+}
+#cse{
+    display: inline-block;
+    background-image:url("cse.webp");
+    background-size: cover;
+    border-radius:10px;
+    position: absolute;
+    top:130px;
+    left:50px;
+}
+#cseevents{
+    border:none;
+    position: absolute;
+    top:320px;
+    left:70px;
+}
+#ece{
+    background-image:url("ece.jpeg");
+    background-size:cover;
+    border-radius:10px;
+    position: absolute;
+    top:130px;
+    left:500px;
+}
+#eceevents{
+    border: none;
+    position: absolute;
+    top:320px;
+    left:510px;
+}
+#eee{
+      display: inline-block;
+      background-image: url("eee.jpeg");
+      background-size:auto;
+      border-radius:10px;
+      position: absolute;
+      top:130px;
+      left:1000px;
+}
+#eeeevents{
+    border: none;
+    position: absolute;
+    top: 320px;
+    left:1000px;
+}
+#civil{
+    display: inline-block;
+    background-image:url("civil.webp");
+    background-size: cover;
+    border-radius:10px;
+    position: absolute;
+    top: 600px;
+    left:70px ;
+}
+#civilevents{
+    border:none;
+    position: absolute;
+    top: 790px;
+    left: 70px;
+}
+#mechanical{
+    display:inline-block;
+    background-image: url("mechanical.jpeg");
+    background-size: cover;
+    border-radius:10px;
+    position:absolute;
+    top:600px;
+    left: 500px;
+}
+#mechanicalevents{
+    border: none;
+    position: absolute;
+    top: 790px;
+    left: 500px; ;
+
+}
+#chem{
+    display:inline-block;
+    background-image: url("chemicaal.jpeg");
+    background-size: cover;
+    border-radius:10px;
+    position: absolute;
+    top: 600px;
+    left:1000px;
+}
+#chemevents{
+    border: none;
+    position: absolute;
+    top: 790px;
+    left:1000px ;
+}
+#form{
+    position: absolute;
+    top:1030px;
+    left: 370px;
+    height: 300px;
+    width: 450px;
+    background-color:rgb(39, 51, 54);
+    border-radius:15px;
+    border:1px solid silver;
+}
+h3{
+ color: rgb(214, 99, 138);
+}
+#table{
+    border:0px;
+}
+.submit{
+    text-align:right;
+}
+footer{
+    text-align: center;
+}
+
