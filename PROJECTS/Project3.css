@@ -1,0 +1,49 @@
+html,body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height:100%;
+    font-size:16px;
+    font-weight:400;
+    line-height:2em;
+    color:whitesmoke;
+    margin: 0;
+} 
+.img2{
+    background-image:url("HimImg2.jpg");
+    min-height:400px;
+}
+.img3{
+    background-image:url("HimImg3.webp");
+    min-height:400px;
+}
+.img1,.img2,.img3{
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.img1{
+    background-image:url("HimImg1.jpg");
+    min-height:100%;
+}
+.heading1{
+    position: absolute;
+    top: 50%;
+    width:100%;
+    text-align:center;
+    font-size:30px;
+    letter-spacing:10px;
+    text-transform: uppercase;
+}
+.text1{
+    background:rgba(82, 81, 81, 0.952);
+    color:white;
+    padding:15px;
+}
+.section{
+    padding:20px 50px;
+    text-align: center;
+}
+.section_light{
+    background-color:#282e34;
+    color:#ddd;
+}
