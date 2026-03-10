@@ -1,0 +1,59 @@
+Customer Churn Analysis – Data Preprocessing, EDA, and Visualization
+
+This project focuses on analyzing a customer churn dataset using Python. The main objective of the project is to clean the dataset, explore the data, and visualize important patterns that help understand why customers leave a service.
+
+Project Workflow
+
+1. Data Preprocessing
+   The first step of the project was cleaning and preparing the dataset for analysis. Several preprocessing steps were performed:
+
+* Removed unnecessary columns such as customer_id.
+* Checked the structure of the dataset using info(), shape, and columns.
+* Identified and handled missing values.
+* Converted columns to appropriate data types.
+* Filled numeric missing values using the mean of the column.
+* Filled categorical missing values using the mode (most frequent value).
+* Cleaned text data such as gender and country by removing extra spaces and fixing formatting.
+* Corrected the products_number column and converted it to integer.
+* Filtered invalid age values to keep only realistic ages between 18 and 75.
+* Checked for duplicate rows in the dataset.
+
+After preprocessing, a cleaned dataset was saved as churn_cleaned.csv.
+
+2. Exploratory Data Analysis (EDA)
+   After cleaning the data, exploratory data analysis was performed to understand the dataset better. The following analyses were carried out:
+
+* Distribution of the target variable (churn).
+* Gender distribution of customers.
+* Country distribution of customers.
+* Age distribution of customers.
+* Balance and credit score distributions.
+* Relationships between different variables such as age and balance.
+
+EDA helped identify patterns and trends in the dataset.
+
+3. Data Visualization
+   Various visualizations were created using matplotlib and seaborn to better understand the data:
+
+* Count plots for churn, gender, and country.
+* Histograms for age, balance, and credit score distributions.
+* Scatter plots to observe relationships between variables.
+* Box plots to compare churn with age and balance.
+* Correlation heatmap to understand relationships between numeric variables.
+* Pairplot to visualize relationships across multiple features.
+
+These visualizations provide insights into customer behavior and help identify factors that may influence churn.
+
+Tools and Libraries Used
+
+* Python
+* Pandas (Data manipulation and preprocessing)
+* NumPy (Numerical operations)
+* Matplotlib (Data visualization)
+* Seaborn (Statistical visualization)
+
+Outcome of the Project
+The project successfully cleaned and analyzed the customer churn dataset. The preprocessing stage ensured data quality, while EDA and visualization helped reveal patterns in customer behavior that may contribute to churn.
+
+The cleaned dataset and analysis can be further used for machine learning models to predict customer churn.
+
